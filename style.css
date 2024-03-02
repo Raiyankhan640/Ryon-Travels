@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans&display=swap'); 
+
+body{
+    font-family: "Mullish", sans-serif;
+    margin-left: 130px;
+    margin-right: 125px;
+}
+
+/* Header Styles */
+
+.nav-bar{
+    display: flex;
+}
