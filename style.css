@@ -186,3 +186,129 @@ body {
     border: none;
     margin-top: 40px;
 }
+
+/* Destination Section */
+.destination-texts {
+    text-align: center;
+    padding-left: 100px;
+    margin-bottom: 50px;
+    padding-right: 100px;
+}
+
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.destination-texts p {
+    width: 660px;
+    text-align: center;
+    padding-left: 500px;
+}
+
+
+/* Destination Section */
+.destination-images {
+    margin-bottom: 100px;
+}
+
+/* Grid areas naming */
+.grid-1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grid-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 250px;
+    padding-left: 140px;
+}
+
+.grid-3{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 230px;
+    padding-left: 140px;
+    padding-top: 100px;
+}
+
+.grid-text {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.maldives {
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    background-image: url(./Images/maldives.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indonesia {
+    width: 673px;
+    height: 400px;
+    background-image: url(./Images/indonesia.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.srilanka {
+    width: 374px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Images/srilanka.png);
+}
+
+.north-america {
+    width: 474px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Images/north-america.png);
+}
+
+.kashmir {
+    width: 274px;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Images/kashmir.png);
+}
+
+.bangladesh {
+    grid-area: bangladesh;
+    width: 473px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/bangladesh.png), lightgray 50% / cover no-repeat;
+}
+
+.bandarban {
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(./Images/bandarban.png), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
