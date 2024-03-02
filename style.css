@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans&display=swap');
+
+body {
+    font-family: "Mullish", sans-serif;
+    margin-left: 130px;
+    margin-right: 125px;
+}
+
+/* Header Styles */
+
+.nav-bar {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+.nav-logo {
+    display: flex;
+    gap: 16px;
+    margin-top: 5px;
+}
+
+.nav-logo img {
+    width: 48px;
+    height: 56.008px;
+}
+
+.nav-title {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 10px;
+
+}
+
+.nav-title-style {
+    color: #FF5400;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu ul li {
+    list-style: none;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    padding-left: 44px;
+    color: var(--Dark-02, #424247);
+}
+
+/* Header-> Explore Section Styles */
+.explore {
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    margin-bottom: 100px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/header-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.explore-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.explore-des {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+.explore-inputs {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    margin-right: 240px;
+    margin-left: 240px;
+}
+
+.explore-inputs input {
+    width: 174px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+.ex-normal {
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#ex-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
+
+/* Popular Tours Section */
+.popular-tours {
+    display: flex;
+    height: 600px;
+}
