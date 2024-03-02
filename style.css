@@ -190,9 +190,7 @@ body {
 /* Destination Section */
 .destination-texts {
     text-align: center;
-    padding-left: 100px;
     margin-bottom: 50px;
-    padding-right: 100px;
 }
 
 .destination-title {
@@ -208,7 +206,7 @@ body {
 .destination-texts p {
     width: 660px;
     text-align: center;
-    padding-left: 500px;
+    margin: 0 auto;
 }
 
 
@@ -230,7 +228,7 @@ body {
     padding-left: 140px;
 }
 
-.grid-3{
+.grid-3 {
     display: flex;
     justify-content: space-between;
     padding-right: 230px;
@@ -312,3 +310,81 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+/* Why Choose Us Section */
+.wcus{
+    height: auto;
+    width: 100%;
+}
+.wcu-contents {
+    margin-top: 48px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-areas: 
+        "hotels     service",
+        "price"
+    ; */
+    gap: 24px;
+    justify-content: space-evenly;
+    row-gap: 24px;
+}
+
+.hotels {
+    /* grid-area: hotels; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.hotels img {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.service {
+    /* grid-area: service; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.service img {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.price {
+    /* grid-area: price; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.price img {
+    width: 64px;
+    height: 64px;
+}
+
+/* News Letter Section */
