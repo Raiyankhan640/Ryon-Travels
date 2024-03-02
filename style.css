@@ -135,5 +135,54 @@ body {
 /* Popular Tours Section */
 .popular-tours {
     display: flex;
-    height: 600px;
+    height: 700px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.popular-title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: start;
+    margin-bottom: 24px;
+}
+
+.popular-text {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.popular-contents p {
+    width: 530px;
+    margin-bottom: 24px;
+}
+
+.popular-contents li {
+    margin-bottom: 16px;
+    width: 525px;
+}
+
+.button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    border: none;
+    margin-top: 40px;
 }
