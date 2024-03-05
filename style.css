@@ -6,6 +6,9 @@ body {
     margin-right: 125px;
 }
 
+nav, section{
+    
+}
 /* Header Styles */
 
 .nav-bar {
@@ -60,7 +63,6 @@ body {
 .explore {
     width: 100%;
     height: 500px;
-    flex-shrink: 0;
     border-radius: 16px;
     margin-bottom: 100px;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/header-image.png);
@@ -313,19 +315,16 @@ body {
 
 
 /* Why Choose Us Section */
-.wcus{
+.wcus {
     height: auto;
     width: 100%;
 }
+
 .wcu-contents {
     margin-top: 48px;
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* grid-template-areas: 
-        "hotels     service",
-        "price"
-    ; */
     gap: 24px;
     justify-content: space-evenly;
     row-gap: 24px;
@@ -388,3 +387,89 @@ body {
 }
 
 /* News Letter Section */
+
+
+/* Footer */
+footer {
+    width: 1440px;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+    body{
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+    img{
+        width: 300px;
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    nav{
+        flex-direction: column;
+        margin-bottom: 100px;
+        row-gap: 20px;
+        padding-bottom: 100px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .nav-bar{
+        flex-direction: column;
+    }
+    .explore{
+       /* background-image: none; */
+       width: 400px;
+    }
+    .explore-inputs{
+        display: flex;
+        flex-direction: column;
+    }
+    .popular-tours{
+        flex-direction: column;
+        padding-top: 100px;
+        /* margin-right: 100px; */
+        width: 400px;
+    }
+    .popular-contents{
+        width: 400px;
+    }
+    .destination{
+        flex-direction: column;
+        width: 400px;
+    }
+    .destination-texts{
+        width: 300px;
+    }
+    .wcus{
+        width: 400px;
+        padding-top: 100px;
+    }
+    .grid-1{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .grid-2{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .grid-3{
+        flex-direction: column;
+        padding: 20px;
+        width: 300px;
+    }
+   
+
+    .wcu-contents{
+        grid-template-columns: 1fr;
+    }
+    
+}
